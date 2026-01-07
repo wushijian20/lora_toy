@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ML / Torch
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+wandb/
+runs/
+
+# HuggingFace
+.cache/
+hf_cache/
+
+# OS
+.DS_Store
