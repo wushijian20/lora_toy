@@ -66,6 +66,7 @@ trainer.train() # Starts the train
 # 6. Saving the Adapter
 # Note: This saves ONLY the small LoRA weights (A and B), not the whole GPT-2
 model.save_pretrained("./poetry_lora_adapter")
+tokenizer.save_pretrained("./poetry_lora_adapter")
 
 from peft import PeftModel
 

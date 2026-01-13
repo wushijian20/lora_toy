@@ -107,6 +107,7 @@ trainer = Trainer(
 
 trainer.train()
 model.save_pretrained("./shakespeare_lora_adapter")
+tokenizer.save_pretrained("./shakespeare_lora_adapter")
 
 # 4. METRICS & COMPARISON FUNCTIONS
 
