@@ -6,7 +6,7 @@ import math
 
 # 1. Load Dataset
 dataset = load_dataset("suayptalha/Poetry-Foundation-Poems") 
-dataset = dataset["train"].select(range(2000))
+dataset = dataset["train"] #.select(range(2000))
 splits = dataset.train_test_split(test_size=0.1)
 
 # 2. Tokenizer Setup

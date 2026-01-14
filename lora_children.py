@@ -53,7 +53,7 @@ from datasets import load_from_disk
 
 # Loads a dataset saved at "child_dialogue_dataset" from disk and 
 # selects the first 2000 examples. The dataset is assumed to have a "text" column.
-dataset = load_from_disk("child_dialogue_dataset").select(range(2000))
+dataset = load_from_disk("child_dialogue_dataset")#.select(range(2000))
 
 # dataset = dataset['train']
 
