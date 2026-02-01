@@ -1,20 +1,56 @@
 # Python
 __pycache__/
-*.pyc
-.venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
 venv/
+env/
+ENV/
 
-# ML / Torch
-*.pt
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data
+data/raw/
+data/processed/
+data/datasets/
+*.csv
+*.txt
+*.json
+
+# Models & Outputs
+adapters/
+temp_out_*/
 *.bin
-*.ckpt
 *.safetensors
-wandb/
-runs/
+*.pt
+*.pth
 
-# HuggingFace
-.cache/
-hf_cache/
+# MLflow
+mlruns/
+
+# Outputs
+outputs/
+experiments/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
 
 # OS
 .DS_Store
+Thumbs.db
+
+# Backups
+*.backup
